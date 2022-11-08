@@ -4,6 +4,7 @@
  * sort_deck - sorts a deck of card
  * @deck: doubly linked list to sort
  */
+
 void sort_deck(deck_node_t **deck)
 {
 	deck_node_t *curr;
