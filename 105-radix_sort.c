@@ -6,6 +6,7 @@
  * @size: size of the array
  * @lsd: least significant digit
  */
+
 void count_sort_LSD(int *array, size_t size, size_t lsd)
 {
 	int count_arr[10] = {0}, *out_arr, l, m;
@@ -35,6 +36,7 @@ void count_sort_LSD(int *array, size_t size, size_t lsd)
  * @array: array of ints to sort
  * @size: size of the array
  */
+
 void radix_sort(int *array, size_t size)
 {
 	int max;
